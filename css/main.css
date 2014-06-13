@@ -1,0 +1,103 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,900,300);
+
+/* DeepSkyBlue: #00BFFF */
+
+body {
+	background-color: whitesmoke;
+	color: white;
+}
+body *{
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+}
+
+#logoContainer {
+	display: flex;
+	justify-content: center;
+
+	width: 300px; height: 75px;
+	background-color: DeepSkyBlue;
+	border-radius: 0 50px 50px 0;
+}
+
+#logo {
+	font-weight: 900;
+	font-size: 30px;
+	letter-spacing: 2px;
+	color: white;
+	margin: 7% 2% 0 0;
+}
+
+#tweetBall {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 400px; height: 400px;
+	margin: 10px auto;
+	border-radius: 200px;
+	background-color: DeepSkyBlue;
+	position: relative;
+}
+
+#askText {
+	font-weight: 400;
+	color: white;
+	font-size: 20px;
+	margin-top: 30px;
+	padding: 25px;
+	height: 25px;
+	z-index: 100;
+/* centers askText within tweetBall */ 	
+	position: absolute;
+	top: 30px;
+	left: 95px;
+}
+.fa-microphone {
+	font-size: 80px;
+	position: absolute;
+	top: 55px;
+	left: 175px;
+	color: #4FD3FF;
+}
+
+#answerBox {
+	width: 250px; height: 175px;
+	max-height: 200px;
+	border-radius: 10px;
+	background-color: whitesmoke;
+	color: #45454A;
+/* centers answerBox within tweetBall */
+	position: absolute;
+	bottom: 75px;
+	left: 75px;
+}
+
+#answerBox section {
+	padding: 5px;
+}
+
+#question {
+	border-bottom: 1px dotted #4FD3FF;
+}
+
+
+
+
+
+
+footer nav {
+	position: fixed;
+	bottom: 0; right: 0;
+	margin-right: 5px;
+	margin-bottom: 3px;	
+}
+
+nav a {
+	background-color: #45454A;
+	padding: 5px;
+	border-radius: 10px 10px 0 0;
+	color: white;
+}
+
+
