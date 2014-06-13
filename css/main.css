@@ -15,7 +15,7 @@ body *{
 	display: flex;
 	justify-content: center;
 
-	width: 300px; height: 75px;
+	width: 325px; height: 75px;
 	background-color: DeepSkyBlue;
 	border-radius: 0 50px 50px 0;
 }
@@ -25,7 +25,14 @@ body *{
 	font-size: 30px;
 	letter-spacing: 2px;
 	color: white;
-	margin: 7% 2% 0 0;
+	margin: 6% 12% 0 0;
+}
+
+#tweetPic {
+	width: 50px;
+	position: fixed;
+	top: 45px;
+	left: 270px;
 }
 
 #tweetBall {
@@ -61,7 +68,7 @@ body *{
 	position: absolute;
 	top: 5px;
 	left: 65px;
-	color: #4FD3FF;
+	color: #4FD3FF; /* If using CSS to color instead of .gif */
 	z-index: -1;
 }
 
@@ -96,7 +103,20 @@ body *{
 }
 
 
+/* About page ------------- */
 
+#aboutPara {
+	color: #45454A;
+	font-size: 18px;
+	width: 400px;
+	padding: 10px;
+	margin-top: 10px;
+	line-height: 25px;
+}
+
+#aboutPara a {
+	color: #37BCE9; /* more readable light blue */
+}
 
 
 

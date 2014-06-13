@@ -1,5 +1,6 @@
 //Based on http://updates.html5rocks.com/2013/01/Voice-Driven-Web-Apps-Introduction-to-the-Web-Speech-API
 
+//Records and displays voice-to-text in question section
 var final_transcript = '';
 var recognizing = false;
 var ignore_onend;
