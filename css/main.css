@@ -40,36 +40,50 @@ body *{
 	position: relative;
 }
 
-#askText {
+#start_button {
 	font-weight: 400;
 	color: white;
 	font-size: 20px;
 	margin-top: 30px;
 	padding: 25px;
-	height: 25px;
 	z-index: 100;
-/* centers askText within tweetBall */ 	
+	cursor: pointer;
+	background-color: transparent;
+	border: none;
+	outline: none;
+/* centers start button within tweetBall */ 	
 	position: absolute;
-	top: 30px;
+	top: 10px;
 	left: 95px;
 }
-.fa-microphone {
-	font-size: 80px;
+#mic {
+	width: 75px;
 	position: absolute;
-	top: 55px;
-	left: 175px;
+	top: 5px;
+	left: 65px;
 	color: #4FD3FF;
+	z-index: -1;
+}
+
+#info {
+	position: absolute;
+	width: 325px;
+	top: 120px;
+	left: 40px;
+	font-size: 14px;
+	text-align: center;
+	display: none;
 }
 
 #answerBox {
-	width: 250px; height: 175px;
+	width: 250px; height: 190px;
 	max-height: 200px;
 	border-radius: 10px;
 	background-color: whitesmoke;
 	color: #45454A;
 /* centers answerBox within tweetBall */
 	position: absolute;
-	bottom: 75px;
+	bottom: 55px;
 	left: 75px;
 }
 
