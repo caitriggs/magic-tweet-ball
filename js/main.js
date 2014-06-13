@@ -1,3 +1,4 @@
+//Based on http://updates.html5rocks.com/2013/01/Voice-Driven-Web-Apps-Introduction-to-the-Web-Speech-API
 
 var final_transcript = '';
 var recognizing = false;
